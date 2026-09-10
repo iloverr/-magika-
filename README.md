@@ -86,8 +86,8 @@
 ### 1. 获取代码
 
 ```bash
-git clone https://github.com/<你的用户名>/<仓库名>.git
-cd <仓库名>
+git clone https://github.com/iloverr/-magika-.git
+cd -magika-
 ```
 
 > 仓库不含 `.venv`、`node_modules`、`dist` 等，clone 下来后按下面步骤本地安装依赖即可。
