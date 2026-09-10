@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 不倒翁摇摆动画：以底部中心为支点左右摆动 ±15° */
+@keyframes roly-poly {
+  0%   { transform: rotate(0deg); }
+  20%  { transform: rotate(15deg); }
+  40%  { transform: rotate(-15deg); }
+  60%  { transform: rotate(10deg); }
+  80%  { transform: rotate(-10deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.animate-roly-poly {
+  transform-origin: bottom center;
+  animation: roly-poly 2.5s ease-in-out infinite;
+}
